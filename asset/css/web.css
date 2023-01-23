@@ -21,14 +21,28 @@ linear-gradient(213.01deg, #FFFFFF 4.13%, rgba(254, 150, 198, 0.5) 80.31%);
 ;
 
 }
+/* body{
+    background-color: #e9e6e8;
+} */
 
+hero-section3
+.nav-link{
+/* border: 2px solid red;  */
+/* margin-bottom: 3rem; */
+/* margin-top: 2rem; */
+padding: 1.5rem;
+
+}
 .main-nav{
     display: flex;
-    gap: 60px;
-    justify-content: space-around;
+     gap: 2rem; 
+    
+    justify-content:flex-end;
     align-items: center;
     margin-top: 10px;
     line-height: 1.6;
+    padding-right: 3rem;
+    font-size: 1.2rem;
 
 }
 .toggle-button{
@@ -102,8 +116,13 @@ li a{
     color: white;
     background-color: #6EB245;
     padding-top: 20px;
+    margin-top: 2rem;
     
 }
+.hero-but:hover{
+    background-color: #9D3E89;
+}
+
 
 .hero-section2{
     background-color: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),
@@ -200,23 +219,32 @@ flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    /* gap: px; */
     height: 600px;
+    /* border: 2px solid red; */
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+    padding-left: 7rem;
 }
 
-    .woman-on-naturalhair{
+    .woman-on-naturalhair1{
       
      /*  flex-grow: 1; */
-        width: 600px;
-        height: 800px;
-        background-color: white;
+        /* width: 600px; */
+        /* height: 800px; */
+        /* background-color: white; */
         border-image: none;
+        /* border: 2px solid green; */
+        width: 100%;
+        height: auto;
+        
     }
     
 .about-us{
     color: #795A69;
     font-size: larger;
     font-weight: 800;
+    font-size: 1.5rem;
 
 }
 
@@ -249,9 +277,12 @@ linear-gradient(137.03deg, rgba(255, 255, 255, 0.95) 47.28%, rgba(254, 150, 198,
     color: white;
     background-color: #6EB245;
     padding-top: 30px;
+    margin-top: 2rem;
     
 }
-
+.btn-sec-3:hover{
+    background-color: #9D3E89;
+}
 .jide-img{
 
     border-radius: 50%;
@@ -412,7 +443,12 @@ text-align: center;
     background-color: #6EB245;
     padding-top: 20px;
     margin-top: 10px;  
+    /* border: 3px solid blue; */
+    margin-top: 2rem;
 
+}
+.last-secbut:hover{
+    background-color: #9D3E89;
 }
 
 .hero-section5{
@@ -422,7 +458,9 @@ linear-gradient(137.03deg, rgba(255, 255, 255, 0.95) 47.28%, rgba(254, 150, 198,
 
 height: 600px;
     display: flex;
+    gap: 3rem;
     justify-content: center;
+    /* border: 2px solid pink; */
 }
 .hero-section5img{
     height: 500px;
@@ -449,8 +487,13 @@ height: 600px;
     background-color: #6EB245;
     padding-top: 20px;
     margin-top: 10px;  
-    margin-top: 20px;
+    margin-top: 2rem;
     margin-right: 20px;
+    /* border: 2px solid red; */
+}
+
+.reachout-btn:hover{
+    background-color: #9D3E89;
 }
 .hero-section6{
     
