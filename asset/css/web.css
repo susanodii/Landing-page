@@ -133,6 +133,7 @@ linear-gradient(131.41deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9)
 .header-section{
     text-align: center;
     padding-top: 50px;
+    /* border: 2px solid red; */
 }
 .features{
     color: #21A4C4;
@@ -151,6 +152,10 @@ linear-gradient(131.41deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9)
     justify-content: center;
     gap: 30px;
     padding-top: 50px;
+    /* border: 2px solid yellow; */
+    align-items: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 
@@ -166,6 +171,7 @@ linear-gradient(131.41deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9)
 
 .xtics-sec-flex{
 flex-grow: 1;
+/* border: 2px solid blueviolet; */
 }
 
 
