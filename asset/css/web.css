@@ -8,6 +8,9 @@
 html {
   font-family: sans-serif;
 }
+body {
+  overflow-x: hidden;
+}
 img {
   width: 100%;
   height: auto;
@@ -116,11 +119,6 @@ section.hero_baby_background {
   /* border: 3px solid red; */
 }
 
-.hero-img {
-  /* flex-grow: 1;
-      width: 200px; */
-  /* border: 2px solid green; */
-}
 .hero-but {
   text-align: center;
   border: 2px solid;
@@ -132,7 +130,7 @@ section.hero_baby_background {
   font-size: 16px;
   font-weight: 700;
   color: white;
-  /* background-color: #6eb245; */
+  background-color: #6eb245;
   padding-top: 20px;
   margin-top: 2rem;
 }
@@ -141,7 +139,7 @@ section.hero_baby_background {
 }
 
 .hero-section2 {
-   position: relative;
+  position: relative;
   background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%),
     linear-gradient(
       131.41deg,
@@ -156,21 +154,20 @@ section.hero_baby_background {
 
   /* border: 2px solid red; */
 }
-.circle-border{
-    width: 500px;
-    position: absolute;
-    top: 12rem;
-    left: 10rem;
-    
+.circle-border {
+  width: 500px;
+  position: absolute;
+  top: 12rem;
+  left: 10rem;
 }
 .header-section {
   text-align: center;
   padding-top: 50px;
- 
-  
 }
 .features {
   color: #21a4c4;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 .header-epl {
   padding-top: 10px;
@@ -189,9 +186,9 @@ section.hero_baby_background {
   padding-left: 5rem;
   padding-right: 5rem;
 }
-.img-sect{
-/* border: 3px solid black; */
- padding: 6rem; 
+.img-sect {
+  /* border: 3px solid black; */
+  padding: 6rem;
 }
 
 .img-logo {
@@ -199,17 +196,9 @@ section.hero_baby_background {
   height: 20px;
 }
 
-
-
-
 .happy-laughing-baby {
-  
   width: 400px;
-  
 }
-
-
-
 
 .img-logo2 {
   padding-top: 175px;
@@ -241,13 +230,10 @@ section.hero_baby_background {
 .h4-conc {
   color: #9d3e89;
   margin-top: 5rem;
-  
 }
 .p-conc {
   color: #483d3f;
 }
-
-
 
 .hero-section3 {
   display: flex;
@@ -271,19 +257,27 @@ section.hero_baby_background {
   width: 100%;
   height: auto;
 }
+.abtus {
+  /* border: 2px solid red; */
+  padding-left: 4rem;
+  width: 50%;
+}
 
 .about-us {
   color: #795a69;
   font-size: larger;
   font-weight: 800;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .abt-knowledge-ex {
   padding-top: 30px;
-  line-height: 1.6;
-  font-size: large;
-  color: #795a69;
+  line-height: 1.5;
+  font-size: 1.2rem;
+  color: #776e70;
+  text-align: left;
+  /* border: 2px solid green; */
+  width: 90%;
 }
 
 .hero-section4 {
@@ -298,24 +292,9 @@ section.hero_baby_background {
       rgba(254, 150, 198, 0.95) 152.37%
     );
 
-  height: 700px;
+  /* border: 2px solid red; */
 }
 
-.btn-sec-3 {
-  text-align: center;
-  border: 2px solid;
-  border-radius: 25px;
-  padding: 20px;
-  font-size: 16px;
-  font-weight: 700;
-  color: white;
-  background-color: #6eb245;
-  padding-top: 30px;
-  margin-top: 2rem;
-}
-.btn-sec-3:hover {
-  background-color: #9d3e89;
-}
 .jide-img {
   border-radius: 50%;
   width: 100px;
@@ -338,11 +317,13 @@ section.hero_baby_background {
 }
 .see-topDIS {
   color: #21a4c4;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 .top-distributor-explaination {
-  padding-top: 15px;
   color: #776e70;
+  margin-bottom: 2rem;
 }
 
 .distributors-profile {
@@ -439,28 +420,17 @@ section.hero_baby_background {
   border: 2px white solid;
 }
 .last-section {
-  padding-top: 80px;
+  /* padding-top: 80px; */
   text-align: center;
+  /* border: 2px solid blue; */
+  margin-top: 0.5rem;
 }
 
 .last-sech4 {
   color: #776e70;
+  font-size: 1rem;
 }
 
-.last-secbut {
-  text-align: center;
-  border: 2px solid;
-  border-radius: 25px;
-  padding: 20px;
-  font-size: 16px;
-  font-weight: 700;
-  color: white;
-  background-color: #6eb245;
-  padding-top: 20px;
-  margin-top: 10px;
-  /* border: 3px solid blue; */
-  margin-top: 2rem;
-}
 .last-secbut:hover {
   background-color: #9d3e89;
 }
@@ -477,11 +447,22 @@ section.hero_baby_background {
       rgba(254, 150, 198, 0.95) 152.37%
     );
 
-  height: 600px;
+  
   display: flex;
   gap: 3rem;
   justify-content: center;
-  /* border: 2px solid pink; */
+  align-items: center;
+   /* border: 2px solid pink; */
+   margin-top: 3rem;
+   padding-bottom: 5rem; 
+}
+
+.Reach_Out_To_Us{
+font-size: 2rem;
+color: #795A69;
+}
+.reach-outh5{
+  font-size: 1.2rem;
 }
 .hero-section5img {
   height: 500px;
@@ -491,32 +472,22 @@ section.hero_baby_background {
 .reach-out {
   padding-top: 250px;
   line-height: 2;
+  /* border: 2px solid green; */
 }
 .reach-out {
   color: #776e70;
 }
 
-.reachout-btn {
-  text-align: center;
-  border: 2px solid;
-  border-radius: 25px;
-  padding: 20px;
-  font-size: 16px;
-  font-weight: 700;
-  color: white;
-  background-color: #6eb245;
-  padding-top: 20px;
-  margin-top: 10px;
-  margin-top: 2rem;
-  margin-right: 20px;
-  /* border: 2px solid red; */
-}
 
-.reachout-btn:hover {
-  background-color: #9d3e89;
-}
+
+
+
 .hero-section6 {
-  height: 600px;
+  
+  /* border: 2px solid red; */
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 .jide-img-tes {
@@ -618,11 +589,16 @@ section.hero_baby_background {
 
 .read-tes {
   color: #21a4c4;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .read-test-futher {
   color: #776e70;
   line-height: 1.5;
+  font-size: 1rem;
+  
+  
 }
 
 .hero-section7 {
