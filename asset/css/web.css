@@ -65,6 +65,7 @@ li a {
     background-color: #e9e6e8;
 } */
 
+
 hero-section3 .toggle-button {
   position: absolute;
   top: 0.75rem;
@@ -245,6 +246,8 @@ section.hero_baby_background {
   margin-top: 12rem;
   margin-bottom: 12rem;
   padding-left: 7rem;
+  border: 2px solid red;
+  position: relative;
 }
 
 .woman-on-naturalhair1 {
@@ -270,6 +273,12 @@ section.hero_baby_background {
   font-size: 2rem;
 }
 
+.circle-border2 {
+  width: 500px;
+  position: absolute;
+  top: 17rem;
+  left: 65rem;
+}
 .abt-knowledge-ex {
   padding-top: 30px;
   line-height: 1.5;
@@ -679,144 +688,3 @@ footer {
 
 /*............MEDIA QUARY.................*/
 
-@media only screen and (max-width: 768px) {
-  .main-nav {
-    flex-direction: column;
-    justify-content: right;
-    align-items: flex-start;
-    gap: 2px;
-  }
-
-  .hero-section {
-    height: 1000px;
-  }
-
-  .section-1 {
-    display: block;
-  }
-  .hero-texts {
-    flex-grow: 1;
-    padding-left: 30px;
-    font-size: smaller;
-    font-weight: 200;
-  }
-
-  .baby {
-    color: #fe96c6;
-    padding-top: 10px;
-  }
-
-  .hero-img {
-    flex-grow: 1;
-    width: 100%;
-    position: absolute;
-  }
-  .hero-but {
-    padding: 5px;
-  }
-
-  .hero-but {
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-
-  .header-epl {
-    font-size: 14px;
-    text-align: left;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  .p-protect {
-    background-color: #6eb245;
-    width: 80%;
-    margin: auto;
-  }
-  .charactaristics-section {
-    display: block;
-    line-height: 1;
-  }
-
-  .img-logo2 {
-    padding-top: 10px;
-  }
-
-  .img-logo3 {
-    padding-top: 10px;
-  }
-
-  .charactaristics-section {
-    padding-left: 20px;
-  }
-
-  .hero-section2 {
-    border: 2px solid red;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .hero-section3 {
-    flex-direction: column;
-
-    gap: -5px;
-    padding-top: 50px;
-  }
-  .abt-knowledge-ex {
-    font-size: smaller;
-  }
-
-  .hero-section4 {
-    padding-top: 400px;
-  }
-
-  .last-secbut {
-    margin-top: 10px;
-  }
-
-  .hero-section5 {
-    padding-top: 420px;
-    flex-direction: column;
-    gap: 5px;
-    height: 1200px;
-  }
-
-  .hero-section5img {
-    height: 250px;
-    width: 450px;
-  }
-
-  .reach-out {
-    line-height: 1;
-    padding-top: 300px;
-  }
-  .hero-section7 {
-    padding-top: 350px;
-    flex-direction: column;
-    gap: 40px;
-    text-align: center;
-  }
-  .socail-media-link {
-    gap: 10px;
-
-    justify-items: center;
-    align-items: center;
-    margin-right: 300px;
-    text-align: center;
-  }
-
-  ol.socail-media-link {
-    text-align: center;
-    text-align: center;
-  }
-  footer {
-    margin-top: 300px;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .hero-section3 {
-    padding-top: 400px;
-  }
-}
