@@ -246,7 +246,7 @@ section.hero_baby_background {
   margin-top: 12rem;
   margin-bottom: 12rem;
   padding-left: 7rem;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   position: relative;
 }
 
@@ -686,5 +686,41 @@ footer {
   padding-top: 25px;
 }
 
+.imageOfWomanWithHanger{
+width: 100%;
+height: 100%;
+text-align: center;
+/* border: 2px solid red; */
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 3rem;
+}
+
+.imageOfWomanWithHangerInnerContainer{
+  width: 40%;
+  /* border: 2px solid green; */
+  position: relative;
+}
+
+.blueRectangle{
+  position: absolute;
+}
+
+.womanWithHanger{
+  position: absolute;
+}
+.play-button{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.pinkArrow{
+width: 30px;
+position: absolute;
+left: 30%;
+}
 /*............MEDIA QUARY.................*/
 
