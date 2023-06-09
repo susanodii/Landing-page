@@ -12,8 +12,8 @@ html {
   overflow-x: hidden;
 } */
 
-.overall-container{
-  width:100
+.overall-container {
+  width: 100;
 }
 img {
   width: 100%;
@@ -69,7 +69,6 @@ li a {
     background-color: #e9e6e8;
 } */
 
-
 hero-section3 .toggle-button {
   position: absolute;
   top: 0.75rem;
@@ -105,9 +104,9 @@ section.hero_baby_background {
 
 .hero-texts {
   position: absolute;
-   /* border: 2px solid red;  */
+  /* border: 2px solid red;  */
   top: 5rem;
-  left: 20rem; 
+  left: 20rem;
   width: 70%;
   font-family: 'Cocon', sans-serif;
 }
@@ -461,21 +460,20 @@ section.hero_baby_background {
       rgba(254, 150, 198, 0.95) 152.37%
     );
 
-  
   display: flex;
   gap: 3rem;
   justify-content: center;
   align-items: center;
-   /* border: 2px solid pink; */
-   margin-top: 3rem;
-   padding-bottom: 5rem; 
+  /* border: 2px solid pink; */
+  margin-top: 3rem;
+  padding-bottom: 5rem;
 }
 
-.Reach_Out_To_Us{
-font-size: 2rem;
-color: #795A69;
+.Reach_Out_To_Us {
+  font-size: 2rem;
+  color: #795a69;
 }
-.reach-outh5{
+.reach-outh5 {
   font-size: 1.2rem;
 }
 .hero-section5img {
@@ -492,12 +490,7 @@ color: #795A69;
   color: #776e70;
 }
 
-
-
-
-
 .hero-section6 {
-  
   /* border: 2px solid red; */
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -611,8 +604,6 @@ color: #795A69;
   color: #776e70;
   line-height: 1.5;
   font-size: 1rem;
-  
-  
 }
 
 .hero-section7 {
@@ -620,7 +611,7 @@ color: #795A69;
 
   display: flex;
 
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: center;
   background-color: #b8dbd933;
   justify-content: center;
@@ -691,46 +682,261 @@ footer {
   padding-top: 25px;
 }
 
-.imageOfWomanWithHanger{
-width: 100%;
-height: 100%;
-text-align: center;
-/* border: 2px solid red; */
-display: flex;
-justify-content: center;
-align-items: center;
-margin-bottom: 3rem;
+.imageOfWomanWithHanger {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
 }
 
-.imageOfWomanWithHangerInnerContainer{
+.imageOfWomanWithHangerInnerContainer {
   width: 40%;
   /* border: 2px solid green; */
   position: relative;
 }
 
-.blueRectangle{
+.blueRectangle {
   position: absolute;
 }
 
-.womanWithHanger{
+.womanWithHanger {
   position: absolute;
 }
-.play-button{
+.play-button {
   width: 60px;
   height: 60px;
   position: absolute;
   cursor: pointer;
 }
 
-.pinkArrow{
-width: 30px;
-position: absolute;
-left: 30%;
+.pinkArrow {
+  width: 30px;
+  position: absolute;
+  left: 30%;
 }
 /*............MEDIA QUARY.................*/
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .overall-container {
+    width: 100%;
+    overflow-x: hidden;
+  }
 
+  .hero-section {
+    width: 100%;
+  }
 
+  .nav-link {
+    margin: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    /* border: 2px solid red; */
+  }
+
+  .main-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  section.hero_baby_background {
+    background: none;
+    height: 100%;
+  }
+
+  .hero-texts {
+    left: 0;
+    position: static !important;
+    width: 100%;
+  }
+  .section-1 {
+    /* border: 2px solid red; */
+    margin-left: 1rem;
+    margin-top: 3rem;
+  }
+  .caption-1 {
+    font-size: 2rem;
+    width: 100%;
+  }
+  .baby {
+    font-size: 1rem;
+  }
+
+  /* notable feture */
+
+  .circle-border {
+    width: 320px;
+    left: 0;
+    top: 15rem;
+  }
+  .header-section {
+    text-align: left;
+  }
+  .header-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .header-epl{
+    font-size: 0.8rem;
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+
+  .charactaristics-section{
+    padding: 0;
+    flex-direction: column-reverse;
+  }
+
+  .img-sect{
+    padding: 0;
+  }
+  .happy-laughing-baby{
+    width: 100%;
+  }
+  .hero-section3{
+    flex-direction: column-reverse;
+    padding: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .img-logo2{
+    padding-top: 2rem;
+  }
+
+  .img-logo3{
+    padding-top: 2rem;
+  }
+
+  /* about us */
+  .hero-section3{
+/* border: 2px solid red; */
+width: 100%;
+  }
+.abtus{
+  /* border: 2px solid blue; */
+  width: 100%;
+  font-size: 0.8rem;
+  width: 100%;
+  /* margin-top: 6rem; */
+}
+
+.abt-knowledge-ex{
+  font-size: 0.8rem;
+  /* width: 100%; */
+}
+
+.see-topDIS{
+  width: 100%;
+  font-size: 1rem;
+}
+.top-distributor-explaination{
+  font-size: 0.8rem;
+}
+.distributors-profile{
+  width: 100%;
+}
+.rotimi-img{
+  left: 0;
+  margin-left: 0;
+}
+.aikomo-img{
+  left: 0;
+  margin-left: 0;
+}
+
+.jide-img{
+  left: 0;
+  margin-left: 0;
+}
+
+.last-sech4{
+  font-size: 0.8rem;
+}
+.hero-section5{
+  flex-direction: column;
+}
+/* react out */
+.hero-section5img{
+  width: 100%;
+  height: 100%;
+}
+
+.reach-out{
+  padding-top: 0;
+}
+.Reach_Out_To_Us{
+  font-size: 1rem;
+  text-align: center;
+}
+.hero-but{
+  margin-left: 2rem;
+}
+.reach-outh5{
+  font-size: 0.8rem;
+  width: 95%;
+  margin: auto;
+}
+
+/* TESTIMONIES */
+.testimonies{
+padding-top: 0;
+}
+
+.distributors-profile-tes{
+  flex-direction: column;
+  gap: 6rem;
+  width: 100%;
+}
+
+/* play button secttion */
+.imageOfWomanWithHanger{
+  width: 100%;
+}
+
+.imageOfWomanWithHangerInnerContainer{
+  width: 90%;
+  margin: auto;
+}
+
+.read-tes{
+  font-size: 1rem;
+}
+
+.read-test-futher{
+  font-size: 0.8rem;
+}
+
+.hero-section7{
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap:2rem;
+}
+
+.logo-icon{
+  display: none;
+  margin-bottom: 4rem;
+  
+}
+.bqs{
+  text-align: start;
+}
+
+.cust-care{
+  text-align: start;
+  /* padding-top: 4rem; */
+}
+.contact{
+  display: none;
+}
 }
