@@ -8,8 +8,12 @@
 html {
   font-family: sans-serif;
 }
-body {
+/* body {
   overflow-x: hidden;
+} */
+
+.overall-container{
+  width:100
 }
 img {
   width: 100%;
@@ -91,6 +95,7 @@ section.hero_baby_background {
     padding-top: 60px; */
   /* margin-top: 5rem; */
   height: 100vh;
+  width: 100%;
   background-image: url(../image/hero_baby.png);
   background-repeat: no-repeat;
   background-position: right;
@@ -100,10 +105,10 @@ section.hero_baby_background {
 
 .hero-texts {
   position: absolute;
-  /* border: 2px solid red; */
+   /* border: 2px solid red;  */
   top: 5rem;
-  left: 20rem;
-  width: 100%;
+  left: 20rem; 
+  width: 70%;
   font-family: 'Cocon', sans-serif;
 }
 
@@ -724,3 +729,8 @@ left: 30%;
 }
 /*............MEDIA QUARY.................*/
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+}
