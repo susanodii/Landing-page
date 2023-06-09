@@ -745,17 +745,22 @@ footer {
     align-items: flex-start;
     font-size: 1rem;
     width: 100%;
+    /* border: 2px solid red; */
   }
 
   section.hero_baby_background {
     background: none;
     height: 100%;
+    
   }
 
   .hero-texts {
     left: 0;
     position: static !important;
     width: 100%;
+    /* border: 2px solid red; */
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
   }
   .section-1 {
     /* border: 2px solid red; */
@@ -763,11 +768,14 @@ footer {
     margin-top: 3rem;
   }
   .caption-1 {
-    font-size: 2rem;
+    font-size: 1px;
     width: 100%;
+    /* border: 2px solid blue; */
   }
   .baby {
     font-size: 1rem;
+    margin-top: 1rem;
+    /* border: 2px solid black; */
   }
 
   /* notable feture */
@@ -779,16 +787,20 @@ footer {
   }
   .header-section {
     text-align: left;
+    /* border: 2px solid red; */
+    margin-bottom: 2rem;
   }
   .header-section {
     padding-left: 1rem;
     padding-right: 1rem;
+    /* border: 2px solid yellowgreen; */
   }
 
   .header-epl{
-    font-size: 0.8rem;
+    font-size: 0.4rem;
     width: 100%;
     margin-bottom: 4rem;
+    /* border: 2px solid black; */
   }
 
   .charactaristics-section{
@@ -808,6 +820,7 @@ footer {
     width: 100%;
     align-items: center;
     justify-content: center;
+    margin-top: -5rem;
   }
   .img-logo2{
     padding-top: 2rem;
@@ -823,10 +836,12 @@ footer {
 width: 100%;
   }
 .abtus{
-  /* border: 2px solid blue; */
+ /* border: 2px solid blue;  */
   width: 100%;
   font-size: 0.8rem;
   width: 100%;
+  align-items: center;
+  /* margin-bottom: 1rem; */
   /* margin-top: 6rem; */
 }
 
@@ -837,7 +852,8 @@ width: 100%;
 
 .see-topDIS{
   width: 100%;
-  font-size: 1rem;
+  font-size: 2rem;
+  margin-top: -6rem; 
 }
 .top-distributor-explaination{
   font-size: 0.8rem;
@@ -875,14 +891,14 @@ width: 100%;
   padding-top: 0;
 }
 .Reach_Out_To_Us{
-  font-size: 1rem;
+  font-size: 2rem;
   text-align: center;
 }
 .hero-but{
   margin-left: 2rem;
 }
 .reach-outh5{
-  font-size: 0.8rem;
+  font-size: 1rem;
   width: 95%;
   margin: auto;
 }
@@ -909,7 +925,7 @@ padding-top: 0;
 }
 
 .read-tes{
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 .read-test-futher{
