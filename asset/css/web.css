@@ -4,17 +4,80 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  
 }
-html {
-  font-family: sans-serif;
+body{
+  padding-top: 60px;
 }
-/* body {
-  overflow-x: hidden;
-} */
 
-.overall-container {
-  width: 100;
+ul{
+  list-style: none;
+  /* border: 3px solid pink; */
 }
+
+a{
+  text-decoration: none;
+  
+}
+
+li.nav__link{
+  cursor: pointer;
+}
+.header{
+  /* border: 2px solid red; */
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.header__content{
+  /* border: 2px solid green; */
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+   min-height: 60px;
+   
+}
+
+
+.logo {
+  width: 4rem;
+  height: 4rem;
+}
+
+.nav{
+  transition:all 0.3s ease-in-out;
+  /* border: 2px solid red; */
+} 
+
+
+
+
+
+.nav-list{
+  display: flex;
+column-gap: 40px;
+
+}
+
+.nav__link{
+  
+  font-size: 20px;
+  transition: all 0.4s ;
+  cursor: pointer;
+  color: #6eb245;
+}
+
+.nav__link:hover, .nav__link:focus{
+  color: #fe96c6;
+}
+
+.hamburger{
+  display: none;
+}
+
+
 img {
   width: 100%;
   height: auto;
@@ -26,12 +89,9 @@ img {
     linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%),
     linear-gradient(213.01deg, #ffffff 4.13%, rgba(254, 150, 198, 0.5) 80.31%);
 }
-.logo {
-  width: 4rem;
-  height: 4rem;
-}
 
-.main-nav {
+
+/* .main-nav {
   display: flex;
   gap: 2rem;
 
@@ -40,34 +100,18 @@ img {
   margin-top: 10px;
 
   font-size: 1.2rem;
-  /* border: 2px solid red; */
+  
   width: 50%;
   color: black;
-}
-.main-nav li:hover {
-  background-color: whitesmoke;
-}
-
-.nav-link {
-  /* border: 2px solid green; */
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-right: 30rem;
-}
-
-ul {
-  list-style: none;
-  text-decoration: none;
-  color: black;
-}
-li a {
-  text-decoration: none;
-  color: rgb(33, 30, 30);
-}
-/* body{
-    background-color: #e9e6e8;
 } */
+
+
+
+
+
+
+
+
 
 hero-section3 .toggle-button {
   position: absolute;
@@ -88,11 +132,7 @@ hero-section3 .toggle-button {
 }
 
 section.hero_baby_background {
-  /* display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    padding-top: 60px; */
-  /* margin-top: 5rem; */
+ 
   height: 100vh;
   width: 100%;
   background-image: url(../image/hero_baby.png);
@@ -255,12 +295,9 @@ section.hero_baby_background {
 }
 
 .woman-on-naturalhair1 {
-  /*  flex-grow: 1; */
-  /* width: 600px; */
-  /* height: 800px; */
-  /* background-color: white; */
+ 
   border-image: none;
-  /* border: 2px solid green; */
+  
   width: 100%;
   height: auto;
 }
@@ -305,7 +342,7 @@ section.hero_baby_background {
       rgba(254, 150, 198, 0.95) 152.37%
     );
 
-  /* border: 2px solid red; */
+  
 }
 
 .jide-img {
